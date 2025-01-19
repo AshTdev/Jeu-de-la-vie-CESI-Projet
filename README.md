@@ -145,4 +145,3 @@ make test
 ```bash
 ./test_unitaire_cellule
 ```
-4. **Enjoy!**
