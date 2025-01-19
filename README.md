@@ -126,7 +126,7 @@ Dans le cadre de ce rattrapage, le modèle MVC a été appliqué.
 ✅ Introduction de cellules obstacle. L’état des cellules obstacles n’évolue pas au cours de l’exécution. Ces dernières possèdent un état vivant ou mort. Modifiez votre code, sans altérer le fonctionnement de base.  
 
 
-## **✈️ IX/ Comment lancer le jeu**
+## **✈️ VIII/ Comment lancer le jeu**
 
 1. **Ouvrez votre terminal** (Sur Linux - Ubuntu)  
 2. **Accédez aux fichiers** grâce à la commande `cd` :  
