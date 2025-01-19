@@ -8,14 +8,18 @@
       
 - III/ Fonctionnalité du programme
       
-   -  A / Lecture du fichier
-   -  B / Mode console ou mode graphique ? | Paramètres de la simulation
+   -  A / Lecture du fichier ( création de la grille )
+   -  B / Mode console ou mode graphique ? 
 
--  IV. Légende
+-  IV/ Langages et bibliothèques
+  
+-  V/ Présentation des fonctions dans la structure de notre programme
+
+-  VI/ Légende
       
--  V. Extensions présentes
+-  VII/ Extensions présentes
       
--  VI. Comment lancer le jeu
+-  VIII/ Comment lancer le jeu
 
 ----------------------
 ##  **🪴I/ Introduction du jeu de la vie**
@@ -84,12 +88,12 @@ Exemple : 5 Itérations demandées par l'utilisateur --> 5 fichiers logs produit
 ![image](https://github.com/user-attachments/assets/ab56ee01-bede-41ae-a281-5a452a9c4471)
 
 
-##  **📚 V/ Langages et bibliothèques**
+##  **📚 IV/ Langages et bibliothèques**
 
 -  C++ standard
 -  Bibliothèque graphique "SFML" pour afficher le jeu.
 
-## **🚧 VI/ Présentation des fonctions dans la structure de notre programme**
+## **🚧 V/ Présentation des fonctions dans la structure de notre programme**
 Dans le cadre de ce rattrapage, le modèle MVC a été appliqué.
 
 - ```main.cpp``` : Exécute la simulation, point d'entrée de notre programme.  
@@ -108,14 +112,14 @@ Dans le cadre de ce rattrapage, le modèle MVC a été appliqué.
 
 - ```test_unitaire_cellule.cpp``` : Test unitaire qui pose des conditions pour voir si elles sont bien respectées, permet de s'assurer du bon fonctionnement d'un bout de code, en l'occurence, le test unitaire se base sur la classe "Cellule"
 
-## **🧭 VII/ Légende**
+## **🧭 VI/ Légende**
 
 - **1** : Correspond à une cellule **vivante** --> la couleur d'une cellule vivante est en **jaune**  
 - **0** : Correspond à une cellule **morte** --> la couleur d'une cellule vivante est en **noir**  
 - **3** : Correspond à un obstacle **vivant** --> la couleur de cet obstacle est en **vert**  
 - **2** : Correspond à un obstacle **mort** --> la couleur de cet obstacle est en **rouge**  
 
-## **🌻 VIII/ Extensions présentes**
+## **🌻 VII/ Extensions présentes**
 
 ✅ Gestion d’une grille torique. Les cellules placées aux extrémités de la grille sont adjacentes.  
 
