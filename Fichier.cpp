@@ -14,6 +14,7 @@ Fichier::Fichier() // Constructeur par défaut
 
 Fichier::Fichier(string path) // Constructeur paramétré
 {
+    // Lecture du fichier --> longueur + largeur
     this->chemin = path;
     ifstream fichier(chemin);
     if (fichier)
