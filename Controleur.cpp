@@ -98,7 +98,6 @@ void Controleur::run()
                 }
             }
             vue.renderGrid(*window, grille);
-            vue.renderInterface(*window, longueur, largeur, delai, grille);
             if (grille.etatSimulation())
             {
                 grille.run();
