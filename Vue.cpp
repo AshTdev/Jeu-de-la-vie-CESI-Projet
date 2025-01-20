@@ -40,10 +40,6 @@ sf::RenderWindow *Vue::initWindow(int longueur, int largeur) // Initialisation d
     return window;
 }
 
-void Vue::renderInterface(sf::RenderWindow &window, int longueur, int largeur, int delai, Grille &grille) {} // Affichage de l'interface
-
-void Vue::afficherConsole(Grille &grille) // Affichage de la grille + itérations dans le mode console
-{
+void Vue::afficherConsole(Grille &grille){
     grille.print();
-    cout << "---" << endl;
-}
+} // Affichage de la grille + itérations dans le mode console
