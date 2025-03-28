@@ -1,7 +1,5 @@
 # ❗"Lifegame" - Projet POO en C++❗
 
-## CESI ECOLE D'INGENIEURS - PROJET A REALISER POUR LE BLOC "POO" EN CPI A2 - INFORMATIQUE
-
 ## 📜 **Sommaire**
 
 - I/ Introduction du jeu de la vie
